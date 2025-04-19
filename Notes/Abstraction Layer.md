@@ -1,3 +1,5 @@
+![Abstraction Layers](https://github.com/user-attachments/assets/4a5dc8a7-613e-40e4-b362-18ea9f5a9b1d)
+
 # **Abstraction Layers of Firmware Development**
 
 A microcontroller (MCU) is literally a small computer on a single chip that can control electronic devices. So, just like your desktop computer, it includes some sort of processor, memory, and input/output ports. But to program an MCU, we need to have a different approach. Unlike Windows or Mac, microcontrollers don't usually have operating systems. Most MCUs run a single program that you write, and they just do what you tell them forever, in a loop. This is where your code directly controls the hardware. However, in more complex projects, you might use a Real-Time Operating System (RTOS), but it is out of the scope of this article.
@@ -153,6 +155,7 @@ int main(void)
 ```
 
 ---
+### **A side by side overview**
 
 | **Layer**      | **Ease of Use** | **Speed & Size** | **Control** | **Example**                          |
 |----------------|-----------------|------------------|-------------|--------------------------------------|
